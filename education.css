@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+}
+.main2 {
+  flex: 50%;
+}
+.frames {
+  flex: 50%;
+}

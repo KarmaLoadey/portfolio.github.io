@@ -1,0 +1,49 @@
+
+.navbar>ul{
+  display: flex;
+  margin-left:200px;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  font-size: 2em;
+  font-weight:bolder
+}
+
+.DP{
+  display: flex;
+  justify-content: center;
+}
+.DP>img{
+  height:400px ;
+  width:400px ;
+  border-radius:200px ;
+}
+.pic{
+  display: flex;
+  }
+  .pic>a>img{
+    height: 50px;
+    width: 50px;
+  }
+.DP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}  
+.Mydetails{
+  height:400px ;
+  width:400px ;
+  border-radius:20px ;
+  background-color: aqua;
+  margin-right: 50px;
+  border: 2px solid;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+

@@ -1,0 +1,39 @@
+.grid{
+  display: grid;
+  grid-template-columns:1fr 1fr 2fr;
+  grid-auto-rows: 300px;
+  gap:10px ;
+}
+.grid>.doc1{
+  border:1px solid black ;
+}
+.Third{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  border: 2px solid black;
+}
+.Third>p{
+border: 1px solid black;
+background-color: aqua;
+}
+.Fourth{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  border: 2px solid black; 
+}
+.Fourth>p{
+  border: 1px solid black;
+  background-color:rebeccapurple;
+  }
+  .Fifth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    border: 2px solid black; 
+  }
+  .Fifth>p{
+    border: 1px solid black;
+    background-color:orchid;
+    }
